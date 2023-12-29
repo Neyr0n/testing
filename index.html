@@ -5,23 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <main>
       <div class="main-page">
-        <img src="./img/logoblack.svg" alt="логотип" />
+        <div class="wrapper">
+          <div class="main-page-left-side">
+            <img src="./img/logoblack.svg" alt="логотип" class="logo" />
 
-        <div class="main-page-text-container">
-          <p>Доброго вечора, ми з України</p>
-          <h1>Бандерогусь</h1>
-          <p>
-            Спеціальний бойовий гусак із біолабораторій України. Пишаюся своїми подвигами, бороню
-            Батьківщину та підтримую позитивний дух народу. Слава Україні!
-          </p>
-          <button class="main-page-btn" type="button">Запустити гуся</button>
+            <div class="main-page-text-container">
+              <p class="main-page-text-hello">Доброго вечора, ми з України</p>
+              <h1 class="main-page-text-title">Бандерогусь</h1>
+              <p class="main-page-text-descr">
+                Спеціальний бойовий гусак із біолабораторій України. Пишаюся своїми подвигами,
+                бороню Батьківщину та підтримую позитивний дух народу. Слава Україні!
+              </p>
+              <button class="main-page-btn" type="button">Запустити гуся</button>
+            </div>
+          </div>
+          <img src="./img/gus.svg" alt="гусак" />
         </div>
-        <img src="./img/gus.svg" alt="гусак" />
+      </div>
+
+      <div class="gus-facts">
+        <img src="./img/trezub.svg" alt="трезуб" class="gus-facts-trezub" />
+        <h2 class="gus-facts-header">Цікаві факти про бандерогусей</h2>
+        <p class="gus-fact-descr">
+          Зазвичай бандерогуси — виключно мирні птахи. Але у разі небезпеки можуть атакувати ворога
+          системою надпотужного озброєння. Також нищать психологічно, активуючи високочастотне
+          шипіння та розмахування крилами
+        </p>
+        <diw class="wrapper">
+          <div class="gus-facts-item">
+            <img src="./img/gus1.svg" alt="гусь-ретранслятор" class="gus-facts-img" />
+            <h3 class="gus-facts-item-title">Система навігації</h3>
+            <p class="gus-facts-item-descr">
+              Супутниковий GPS та ехолокатори розпізнають ворожу техніку навіть на етапі збірки
+            </p>
+          </div>
+          <div class="gus-facts-item">
+            <img src="./img/gus2.svg" alt="гусь-корегувальник" class="gus-facts-img" />
+            <h3 class="gus-facts-item-title">Очі-тепловізори</h3>
+            <p class="gus-facts-item-descr">
+              Допомагають виявити характер сигнатури об’єктів та значно підвищують точність удару
+            </p>
+          </div>
+          <div class="gus-facts-item">
+            <img src="./img/gus3.svg" alt="гусь-коптер" class="gus-facts-img" />
+            <h3 class="gus-facts-item-title">Байракрила</h3>
+            <p class="gus-facts-item-descr">
+              Можуть нести 2-4 керовані ракети, що вражають ціль на відстані «ніхріна собі»
+              кілометрів
+            </p>
+          </div>
+        </diw>
       </div>
     </main>
   </body>
