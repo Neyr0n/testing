@@ -1,241 +1,32 @@
 /* Глобальные стили */
 .text {
   margin: 0;
-
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #1B1D1F;
-}
-
-ul {
-  list-style-type: none;
   padding: 0;
-  margin: 0;
+
+  color: #1B1D1F;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
 }
 
-
-/* Главная секция */
-
-.mainpage {
-  height: 720px;
-  position: relative;
+/* Первая секция */
+.main-page {
   background: linear-gradient(270deg, #A5DEFF 1.34%, #FCFEFE 99.8%);
-  padding-top: 32px;
-  padding-left: 95px;
 }
 
-.mainpage-logo {
-  margin-bottom: 60px;
-}
-
-.mainpage-window {
-  width: 573px;
-  height: 476px;
+.main-page-text-container {
+  border-radius: 40px;
+  background: #FFF;
+  box-sizing: border-box;
   padding: 60px;
-  border-radius: 40px;
-  box-sizing: border-box;
-
-  background: #ffff
 }
 
-.mainpage-text {
-  margin-bottom: 60px;
-
-  font-weight: 600;
-}
-
-.mainpage-header {
-  margin-bottom: 24px;
-
-  font-size: 64px;
-  font-weight: 600;
-  line-height: 1.3;
-}
-
-.mainpage-subtext {
-  margin-bottom: 32px;
-}
-
-.mainpage-btn {
-  display: inline-flex;
-  border: none;
+.main-page-btn {
   padding: 12px 24px;
   border-radius: 8px;
-  background: #FF6B0A;
-  cursor: pointer;
-
-}
-
-.mainpage-btn__text {
-  color: #fff;
-}
-
-.mainpage-gus {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-
-/* Секция про факты */
-
-.about {
-  height: 724px;
-  padding: 48px 95px;
-}
-
-.about-trzb {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 24px;
-}
-
-.about-header {
-  text-align: center;
-  margin-bottom: 32px;
-
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 1.5;
-}
-
-.about-text {
-  margin-bottom: 24px;
-  text-align: center;
-}
-
-.about-article {
-  display: flex;
-  justify-content: space-between;
-}
-
-.about-list {
-  width: 374px;
-  height: 510px;
-}
-
-.about-list__img {
-  margin-bottom: 8px;
-}
-
-.about-list__header {
-  margin-bottom: 32px;
-  text-align: center;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1;
-}
-
-.about-list__text {
-  text-align: center;
-}
-
-/* Секция ввода данных */
-
-.modalform {
-  background: linear-gradient(270deg, #A5DEFF, #FCFEFE);
-  padding: 80px 0;
-
-}
-
-.modalwindow {
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 40px;
-  width: 573px;
-  height: 564px;
-  padding: 32px 60px 60px 60px;
-  box-sizing: border-box;
-
-  background-color: #fff;
-}
-
-.modalwindow-trzb {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 32px;
-}
-
-.modalform-header {
-  text-align: center;
-  margin-bottom: 12px;
-
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1;
-}
-
-.modalform-text {
-  text-align: center;
-  margin-bottom: 24px;
-}
-
-.modalwindow-list {
-  align-items: center;
-}
-
-.modalwindow-list__form {
-  margin-bottom: 24px;
-}
-
-.modalwindow-name {
-  width: 453px;
-  height: 60px;
-  padding-left: 10px;
-  border-radius: 8px;
-  box-sizing: border-box;
-
-  border: 1px solid #005BBB;
-  background: #FFF;
-}
-
-.modalwindow-name__text {
-  margin-bottom: 8px;
-
-  color: #1B1D1F;
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-.modalwindow-mail {
-  width: 453px;
-  height: 60px;
-  padding-left: 10px;
-  border-radius: 8px;
-  box-sizing: border-box;
-
-  border: 1px solid #005BBB;
-  background: #FFF;
-}
-
-.modalwindow-mail__text {
-  margin-bottom: 8px;
-
-  color: #1B1D1F;
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-.modalwindow-btn {
-  display: block;
-  margin: 0 auto;
-  padding: 12px 24px;
-  align-items: flex-start;
-  gap: 10px;
   border: none;
-  border-radius: 8px;
   background: #FF6B0A;
-  cursor: pointer;
-}
-
-.modalwindow-btn__text {
   color: #FFF;
 }
