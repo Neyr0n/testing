@@ -12,6 +12,8 @@
       rel="stylesheet"
     />
 
+    <link rel="preload" href="./img/gus-anim.gif" as="image" />
+
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -28,7 +30,9 @@
                 Спеціальний бойовий гусак із біолабораторій України. Пишаюся своїми подвигами,
                 бороню Батьківщину та підтримую позитивний дух народу. Слава Україні!
               </p>
-              <button class="main-page-btn" type="button">Запустити гуся</button>
+              <button class="main-page-btn" type="button" id="go-to-form-btn">
+                Запустити гуся
+              </button>
             </div>
           </div>
           <img src="./img/gus.svg" alt="гусак" />
@@ -68,6 +72,26 @@
           </div>
         </diw>
       </div>
+
+      <div class="form-page">
+        <form action="#" class="form" netlify id="form">
+          <img src="./img/trezub.svg" alt="трезуб" />
+          <h4 class="form-title">Поділися, будь ласка, поштою</h4>
+          <p class="form-descr">та запиши гуся до бандерозагону</p>
+
+          <div class="form-field">
+            <label class="form-label" for="user-name">Ім'я</label>
+            <input type="text" class="form-input" id="user-name" name="Имя пользователя" />
+          </div>
+
+          <div class="form-field">
+            <label class="form-label" for="user-email">Email</label>
+            <input type="email" class="form-input" id="user-email" name="Почта пользователя" />
+          </div>
+          <button class="form-button" id="launch-btn">Запустити гуся</button>
+        </form>
+      </div>
     </main>
+    <script src="./js/form.js"></script>
   </body>
 </html>
