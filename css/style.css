@@ -149,6 +149,7 @@ body {
   padding: 32px 60px 60px 60px;
   border-radius: 40px;
   text-align: center;
+  display: block;
 
   background: #FFF;
 }
@@ -186,7 +187,6 @@ body {
   border-radius: 8px;
   border: 1px solid #005BBB;
   background: #FFF;
-  display: block;
 
   font-size: 16px;
   font-weight: 400;
